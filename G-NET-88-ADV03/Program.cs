@@ -94,6 +94,34 @@
             //}
             #endregion
 
+            #region Quesion04
+            //HashSet<string> emails = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+            //emails.Add("ahmed@test.com");
+            //emails.Add("AHMED@test.com");
+            //emails.Add("sara@test.com");
+            //emails.Add("Sara@Test.Com");
+            //Console.WriteLine(emails.Count);
+            ////In a HashSet, the values ​​must be unique.
+            //HashSet<int> setA = [1, 2, 3, 4, 5];
+            //HashSet<int> setB = [4, 5, 6, 7, 8];
+            //HashSet<int> result = new HashSet<int>(setA);
+            //result.UnionWith(setB);
+            //ConsoleHelper.PrintHashSet("Union", result);
+
+
+            //result.IntersectWith(setB);
+            //ConsoleHelper.PrintHashSet("Intersect", result);
+
+
+            //result.ExceptWith(setB);
+            //ConsoleHelper.PrintHashSet("Except", result);
+
+
+            //HashSet<int> subset = new HashSet<int>() { 1, 2 };
+            //bool Issubset = subset.IsSubsetOf(setA);
+            //Console.WriteLine($"{{1,2}} is subset of Set A: {Issubset}");
+            #endregion
+
 
         }
     }
