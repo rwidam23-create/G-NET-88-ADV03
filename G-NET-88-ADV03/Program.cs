@@ -149,6 +149,37 @@
             //Console.WriteLine($"Result: {result ?? "null"}");
             #endregion
 
+            #region Question06
+            //Stack<string> stack = new Stack<string>();
+            //stack.Push("google.com");
+            //stack.Push("github.com");
+            //stack.Push("stackoverflow.com");
+            //stack.Push("youtube.com");
+            //stack.Push("claude.ai");
+            //foreach (var item in stack)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            //Console.WriteLine("==================================");
+            //string next = stack.Peek();
+            //Console.WriteLine(next);
+            //Console.WriteLine("==================================");
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    string back = stack.Pop();
+            //    Console.WriteLine(back);
+
+            //}
+            //Console.WriteLine("==================================");
+            //Console.WriteLine($"Current page after going back: {stack.Peek()}");
+            //Console.WriteLine("==================================");
+
+            //stack.Clear();
+            //bool sucsess = stack.TryPop(out string result);
+            //Console.WriteLine(sucsess);
+            //Console.WriteLine($"Result: {result ?? "null"}");
+            #endregion
+
 
         }
     }
