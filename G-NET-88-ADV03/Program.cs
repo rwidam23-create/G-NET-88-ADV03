@@ -22,6 +22,35 @@
             //List<string> grasdeslabel = grades.Select(g => $"Grades:{g}").ToList();
             //ConsoleHelper.PrintList("Grades Label:", grasdeslabel);
             #endregion
-        }
+
+            #region Question02
+        //    Dictionary<int, string> leadboard = new Dictionary<int, string>();
+
+        //    leadboard.Add(500, "Ahmed");
+        //    leadboard.Add(200, "sara");
+        //    leadboard.Add(300, "Ali");
+        //    leadboard.Add(350, "Mona");
+
+        //    foreach (var player in leadboard)
+        //    {
+        //            Console.WriteLine(player);
+        //    }
+
+        //    int firstkey = leadboard.Keys.First();
+        //    string firstvalue = leadboard.Values.First();
+        //    Console.WriteLine($"Firstkey:{firstkey}::Firstvalue{firstvalue}");
+
+        //    bool exists = leadboard.ContainsKey(500);
+        //    Console.WriteLine($"Score 500 exists: {exists}");
+        //    bool found = leadboard.TryGetValue(999, out string name);
+        //    Console.WriteLine(found ? $"Player999:{name}" : "player not found");
+
+        //    leadboard.Remove(200);
+        //    foreach (var player in leadboard)
+        //    {
+        //        Console.WriteLine(player);
+        //    }
+        //}
+            #endregion
     }
 }
