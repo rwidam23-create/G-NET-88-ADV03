@@ -24,36 +24,77 @@
             #endregion
 
             #region Question02
-        //    Dictionary<int, string> leadboard = new Dictionary<int, string>();
+            //    Dictionary<int, string> leadboard = new Dictionary<int, string>();
 
-        //    leadboard.Add(500, "Ahmed");
-        //    leadboard.Add(200, "sara");
-        //    leadboard.Add(300, "Ali");
-        //    leadboard.Add(350, "Mona");
+            //    leadboard.Add(500, "Ahmed");
+            //    leadboard.Add(200, "sara");
+            //    leadboard.Add(300, "Ali");
+            //    leadboard.Add(350, "Mona");
 
-        //    foreach (var player in leadboard)
-        //    {
-        //        Console.WriteLine(player);
-        //    }
+            //    foreach (var player in leadboard)
+            //    {
+            //        Console.WriteLine(player);
+            //    }
 
-        //    int firstkey = leadboard.Keys.First();
-        //    string firstvalue = leadboard.Values.First();
-        //    Console.WriteLine($"Firstkey:{firstkey}::Firstvalue{firstvalue}");
+            //    int firstkey = leadboard.Keys.First();
+            //    string firstvalue = leadboard.Values.First();
+            //    Console.WriteLine($"Firstkey:{firstkey}::Firstvalue{firstvalue}");
 
-        //    bool exists = leadboard.ContainsKey(500);
-        //    Console.WriteLine($"Score 500 exists: {exists}");
-        //    bool found = leadboard.TryGetValue(999, out string name);
-        //    Console.WriteLine(found ? $"Player999:{name}" : "player not found");
+            //    bool exists = leadboard.ContainsKey(500);
+            //    Console.WriteLine($"Score 500 exists: {exists}");
+            //    bool found = leadboard.TryGetValue(999, out string name);
+            //    Console.WriteLine(found ? $"Player999:{name}" : "player not found");
 
-        //    leadboard.Remove(200);
-        //    foreach (var player in leadboard)
-        //    {
-        //        Console.WriteLine(player);
-        //    }
-        //}
+            //    leadboard.Remove(200);
+            //    foreach (var player in leadboard)
+            //    {
+            //        Console.WriteLine(player);
+            //    }
+            //}
             #endregion
 
-       
-    }
+            #region Question03
+            //Dictionary<string, string> phonebook = new Dictionary<string, string>();
+            //phonebook.Add("Rowida", "012349553");
+            //phonebook.Add("Ahmed", "4400697");
+            //phonebook.Add("sara", "22934956");
+            //phonebook.Add("rewan", "01139456");
+            //foreach (var phone in phonebook)
+            //{
+            //    Console.WriteLine(phone);
+            //}
+            //Console.WriteLine("=======================================");
+            //phonebook["salah"] = "0102395867";
+            //foreach (var phone in phonebook)
+            //{
+            //    Console.WriteLine(phone);
+            //}
+            //try
+            //{
+            //    phonebook.Add("Ahmed", "09999999999");
+            //}
+            //catch (ArgumentException ex)
+            //{
+            //    Console.WriteLine($"Error: {ex.Message}");
+            //}
+            //bool add = phonebook.TryAdd("Ahmed", "4400697");
+            //Console.WriteLine(add);
+            //bool exist = phonebook.ContainsKey("rana");
+            //Console.WriteLine(exist);
+            //string result = phonebook.GetValueOrDefault("fatma", "Notfound");
+            //Console.WriteLine($"Fatma:{result}");
+            //foreach (var phone in phonebook)
+            //{
+            //    Console.Write($"Keys:{phone.Key}");
+            //}
+            //Console.WriteLine();
+            //foreach (var phone in phonebook)
+            //{
+            //    Console.Write($"Values:{phone.Value}");
+            //}
+            #endregion
+
+
+        }
     }
 }
