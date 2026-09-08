@@ -122,6 +122,33 @@
             //Console.WriteLine($"{{1,2}} is subset of Set A: {Issubset}");
             #endregion
 
+            #region Question05
+            //Queue<string> queue = new Queue<string>();
+            //queue.Enqueue("Report.pdf");
+            //queue.Enqueue("Invoice.pdf");
+            //queue.Enqueue("Letter.docx");
+            //queue.Enqueue("Resume.pdf");
+            //queue.Enqueue("Photo.jpg");
+            //foreach (var item in queue)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            //Console.WriteLine(queue.Count);
+
+            //string next = queue.Peek();
+            //Console.WriteLine(next);
+            //while (queue.Count > 0)
+
+            //{
+            //    string name = queue.Dequeue();
+            //    Console.WriteLine(name);
+
+            //}
+            //bool sucsess = queue.TryDequeue(out string result);
+            //Console.WriteLine(sucsess);
+            //Console.WriteLine($"Result: {result ?? "null"}");
+            #endregion
+
 
         }
     }
